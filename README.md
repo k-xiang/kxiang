@@ -7,7 +7,7 @@ os.system(r'pipreqs ./ --encoding=utf8 --force --use-local')2221222
 pipe_name := "\\.\pipe\umiocr" ; 命名管道名称
 run_name := "Umi-OCR 文字识别.exe" ; 启动程序名称
 123
-; 将启动参数数组 转为字符串，每组参数用双引号括起来。
+; 将启动参数数组 转为字符串，每组参数用双引号括起来。2345
 args := ""
 
 
