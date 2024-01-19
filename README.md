@@ -22,7 +22,7 @@ if FileExist(pipe_name)
 pipe_name := "\\.\pipe\umiocr" ; 命名管道名称
 run_name := "Umi-OCR 文字识别.exe" ; 启动程序名称
 
-; 将启动参数数组 转为字符串，每组参数用双引号括起来。
+; 将启动参数数组 转为字符串，每组参数用双引号括起来沃尔特呀。
 args := ""
 if A_Args.Length() = 0 ; 空参数，则显示主窗
 {
